@@ -1,4 +1,4 @@
 styfee
 ======
 
-Styfee Local Library
+Styfee Locale Library
