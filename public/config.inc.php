@@ -10,6 +10,7 @@ define('BASEPATH', realpath(dirname(__FILE__))."/..");
 $includePaths = array(
 		BASEPATH."/vendor/",
 		BASEPATH."/library/",
+		BASEPATH."/resources/"
 );
 
 // Set include path & Register autoload
@@ -31,3 +32,5 @@ function exception_handler($exception) {
 }
 
 set_exception_handler('exception_handler');
+
+include("routes.inc.php");
