@@ -1,0 +1,5 @@
+{
+    "require": {
+		"ginger/ginger": "dev-master"
+    }
+}
